@@ -378,7 +378,7 @@ const DataManagement = ({ user }) => {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `puresh_backup_${new Date().toISOString().split('T')[0]}.json`;
+      a.download = `nv_milk_backup_${new Date().toISOString().split('T')[0]}.json`;
       a.click();
       URL.revokeObjectURL(url);
       setBackupMsg('Backup downloaded successfully!');

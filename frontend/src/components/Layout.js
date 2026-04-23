@@ -85,7 +85,7 @@ const Layout = ({ user, onLogout }) => {
         <div className="flex flex-col h-full">
           {/* Logo */}
           <div className={`h-16 flex items-center border-b border-slate-200 ${collapsed ? 'md:justify-center md:px-2' : ''} px-4`}>
-            {!collapsed && <h1 className="text-lg font-bold text-slate-900 truncate flex-1">Puresh Daily</h1>}
+            {!collapsed && <h1 className="text-lg font-bold text-slate-900 truncate flex-1">NV Milk</h1>}
             <button data-testid="close-sidebar-btn" onClick={() => setSidebarOpen(false)}
               className="md:hidden p-1 hover:bg-slate-100 rounded"><X size={20} /></button>
             <button data-testid="collapse-sidebar-btn" onClick={() => setCollapsed(!collapsed)}

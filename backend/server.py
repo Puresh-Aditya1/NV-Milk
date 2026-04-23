@@ -24,7 +24,7 @@ from routes.archive_routes import router as archive_router, cleanup_old_activity
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Puresh Daily")
+app = FastAPI(title="NV Milk")
 
 app.add_middleware(
     CORSMiddleware,

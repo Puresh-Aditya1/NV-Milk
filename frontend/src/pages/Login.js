@@ -38,7 +38,7 @@ const Login = ({ onLogin }) => {
       >
         <div className="h-full w-full bg-slate-900/40 flex items-center justify-center">
           <div className="text-white text-center px-8">
-            <h1 className="text-4xl font-bold mb-4">Dairy Manufacturing</h1>
+            <h1 className="text-4xl font-bold mb-4">NV Milk</h1>
             <p className="text-lg">Complete inventory management for your dairy factory</p>
           </div>
         </div>
